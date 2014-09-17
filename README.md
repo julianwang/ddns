@@ -1,12 +1,14 @@
-Import dnspod python package from
+Import dnspod python package from 
 https://github.com/DNSPod/dnspod-python
 
-Make sure your domain is managed by DNSPOD
+Make sure your domain is managed by DNSPOD.
 The dns server of your domain should be
-f1g1ns1.dnspod.net
-f1g1ns2.dnspod.net
 
-Get this script, Modify following lines as you like
+    f1g1ns1.dnspod.net
+    f1g1ns2.dnspod.net
+
+Get this script, Modify following lines
+
     log_file = "/home/ubuntu/ddns/ddns.log"
 
     email = "DNSPOD_User"
@@ -17,5 +19,5 @@ Get this script, Modify following lines as you like
 
 Put this script into cron job to do regular check.
 
-Reference:
+Reference: 
 DNSPOD API manual: https://www.dnspod.cn/docs/records.html
