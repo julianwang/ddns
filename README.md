@@ -1,5 +1,5 @@
-Import dnspod python package from 
-https://github.com/DNSPod/dnspod-python
+Import hacked dnspod python package 
+./setup.py install
 
 Make sure your domain is managed by DNSPOD.
 The dns server of your domain should be
@@ -20,4 +20,6 @@ Get this script, Modify following lines
 Put this script into cron job to do regular check.
 
 Reference: 
-DNSPOD API manual: https://www.dnspod.cn/docs/records.html
+
+    DNSPOD API manual: https://www.dnspod.cn/docs/index.html
+    dnspod python package: https://github.com/DNSPod/dnspod-python
