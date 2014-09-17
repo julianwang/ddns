@@ -9,10 +9,10 @@ The dns server of your domain should be
 
 Get this script, Modify following lines
 
-    log_file = "/home/ubuntu/ddns/ddns.log"
+    log_file = r"/home/ubuntu/ddns/ddns.log"
 
-    email = "DNSPOD_User"
-    password = "DNSPOD_Pass"
+    email = r"DNSPOD_User"
+    password = r"DNSPOD_Pass"
 
     domain = r"YOUR_DOMAIN"
     sub_domain = r"YOUR_SUB_DOMAIN"

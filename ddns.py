@@ -12,7 +12,7 @@ import time
 from dnspod.apicn import *
 
 def log(msg):
-    log_file = "/home/ubuntu/ddns/ddns.log"
+    log_file = r"/home/ubuntu/ddns/ddns.log"
     if os.path.exists(log_file):
         fp = open(log_file,'a')
     else:
@@ -47,8 +47,8 @@ def check_dns(dnsname):
         exit(-1)
 
 def update_dns(domain, sub_domain, newip):
-    email = "DNSPOD_User"
-    password = "DNSPOD_Pass"
+    email = r"DNSPOD_User"
+    password = r"DNSPOD_Pass"
 
 # Get Domain ID
     api = DomainList(email=email, password=password, type="mine")
