@@ -19,6 +19,8 @@ Get this script, Modify following lines
 
 Put this script into cron job to do regular check.
 
+    */5 * * * * source ~/.profile; /home/ubuntu/ddns/ddns.py > /dev/null 2>&1
+
 Reference: 
 
     DNSPOD API manual: https://www.dnspod.cn/docs/index.html
